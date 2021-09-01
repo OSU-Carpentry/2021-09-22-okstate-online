@@ -78,8 +78,10 @@ displayed if the 'eventbrite' field in the header is not set.
 </iframe>
 {% endif %}
 {% endcomment %}
+
+<h2 id="general">General Information</h2>
 <!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_8252582" matches with the above code: jQuery("#s_lc_event_8252582")  //-->
-<a id="s_lc_event_8252582" href="https://okstate.libcal.com/calendar/events/datacarpentry">CLICK AND REGISTER</a>
+<a id="s_lc_event_8252582" href="https://okstate.libcal.com/calendar/events/datacarpentry">REGISTER</a>
 <!-- Below is optional element styling  //-->
 <style>
 #s_lc_event_8252582 {
@@ -95,9 +97,6 @@ displayed if the 'eventbrite' field in the header is not set.
   opacity: 0.9;
 }
 </style>
-
-
-<h2 id="general">General Information</h2>
 
 {% comment %}
 INTRODUCTION
@@ -369,7 +368,7 @@ you will be teaching to this file. You may also want to add
 rows to the table if you wish to break down the schedule
 further. To use this custom schedule here, replace the block
 of code below the Schedule `<h2>` header below with
-`{% include custom-schedule.html %}`.
+{% include custom-schedule.html %}.
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
