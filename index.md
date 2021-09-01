@@ -77,6 +77,23 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+<!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_8252582" matches with the above code: jQuery("#s_lc_event_8252582")  //-->
+<a id="s_lc_event_8252582" href="https://okstate.libcal.com/calendar/events/datacarpentry">CLICK AND REGISTER</a>
+<!-- Below is optional element styling  //-->
+<style>
+#s_lc_event_8252582 {
+  background: #DFDFDF;
+  border: 1px solid #DFDFDF;
+  border-radius: 4px;
+  color: #777777;
+  font: 14px Arial, Helvetica, Verdana;
+  padding: 8px 20px;
+  cursor: pointer;
+}
+#s_lc_event_8252582:hover {
+  opacity: 0.9;
+}
+</style>
 
 
 <h2 id="general">General Information</h2>
