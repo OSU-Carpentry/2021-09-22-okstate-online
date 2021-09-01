@@ -65,7 +65,7 @@ This block includes the Eventbrite registration widget if
 'eventbrite' has been set in the header.  You can delete it if you
 are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
-{% endcomment %}
+
 {% if page.eventbrite %}
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
@@ -77,6 +77,7 @@ displayed if the 'eventbrite' field in the header is not set.
   scrolling="auto">
 </iframe>
 {% endif %}
+{% endcomment %}
 <!-- Place the following link anywhere in your page. Make sure the id "s_lc_event_8252582" matches with the above code: jQuery("#s_lc_event_8252582")  //-->
 <a id="s_lc_event_8252582" href="https://okstate.libcal.com/calendar/events/datacarpentry">CLICK AND REGISTER</a>
 <!-- Below is optional element styling  //-->
