@@ -355,7 +355,8 @@ of code below the Schedule `<h2>` header below with
 {% endcomment %}
 
 <h2 id="schedule">Schedule</h2>
-
+{% include custom-schedule.html %}
+{% comment %}
 {% if site.carpentry == "swc" %}
 {% include swc/schedule.html %}
 {% elsif site.carpentry == "dc" %}
@@ -376,7 +377,7 @@ how one of these schedule tables is constructed.
 {% if site.pilot %}
 The lesson taught in this workshop is being piloted and a precise schedule is yet to be established. The workshop will include regular breaks. Please [contact the workshop organisers](#contact) if you would like more information about the planned schedule.
 {% endif %}
-
+{% endcomment %}
 <hr/>
 
 
